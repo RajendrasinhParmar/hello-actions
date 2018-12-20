@@ -2,7 +2,7 @@ action "Hello_Rajendrasinh" {
   uses = "./action-hello-world/"
 }
 
-workflow "Hello Action on push" {
+workflow "Hello Action onPush" {
   on = "push"
   resolves = ["Hello Rajendrasinh"]
 }
