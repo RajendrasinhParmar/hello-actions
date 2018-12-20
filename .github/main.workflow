@@ -9,4 +9,5 @@ workflow "Hello Action onPush" {
 
 action "Hello Rajendrasinh" {
   uses = "./action-hello-world"
+  args = "Rajendrasinh Parmar"
 }
